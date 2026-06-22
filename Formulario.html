@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <main>
+            <h1>Relevamiento de Hardware</h1>
+            <h3>¿Qué es un relevamiento de hardware?</h3>
+            <h4> Un relevamiento es un registro e historial que se le hace a un equipo informatico para vereficar el esatdo de sus componentes, con la finalidad de corroborar que componentes andan correctamente y cuales no, agregado a eso un historial para tener constancia de lo que se hace sobre el equipo.</h4> <br>
+            <div>
+                <form>
+                    <h3>Datos personales y descripcion</h3>
+                    <label id="NA">Nombre y Apellido del Cliente:</label>
+                    <input type="text" placeholder="Escribe aquí..."> 
+                    <br><br>
+
+                    <label id="ID">ID/Codigo Identificador:</label>
+                    <input type="number" placeholder="Escribe aquí..."> 
+                    <br><br>
+
+                    <label id="Fecha">Ingreso del Equipo:</label>
+                    <input type="date" placeholder="Escribe aquí..."> 
+                    <br><br>
+
+                    <label id="Tipo">Tipo de Equipo:</label>
+                    <select name="Tipos">
+                        <option style="color: gray;">Elija el Equipo</option>
+                        <option>Compuadora de Escritorio</option>
+                        <option>Notebook</option>
+                    </select> 
+                    <br><br>
+
+                    <label id="Obs">Descripcion del problema:</label>
+                    <textarea name="Comentarios" rows="" cols=""></textarea> 
+                    <br><br>
+
+                    <label id="Email">Email del Cliente:</label>
+                    <input type="email" placeholder="Escribe aquí..."> 
+                    <br><br><br>
+                </form>
+            </div>
+        </main>
+        <div>
+            <form>
+                <h3>Relevamiento de Componentes</h3>
+
+                <label>Limpieza hecha:</label>
+                <select name="Limpieza">
+                    <option>Si</option>
+                    <option>No</option>
+                </select>
+
+                <h4>Fuente de Alimentacion</h4>
+
+                <label id="">Marca:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Potencia:</label>
+                <input type="" placeholder="Escribe">
+                <br><br>
+
+                <label>Certificado de Calidad:</label>
+                <select>
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option>80 PLUS</option>
+                    <option>80 PLUS Bronze</option>
+                    <option>80 PLUS Silver</option>
+                    <option>80 PLUS Gold</option>
+                    <option>80 PLUS Platinum</option>
+                    <option>80 PLUS Titanium</option>
+                </select>
+                <br><br>
+
+                <label id="">Funciona:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 255, 13);">SI</option>
+                    <option style="color: rgb(234, 255, 0);">CON PROBLEMAS</option>
+                    <option style="color: rgb(255, 0, 0);">NO</option>
+                </select>
+                <br><br>
+
+                <label id="">Estado:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 79, 249);">PERFECTO</option>
+                    <option style="color: rgb(0, 255, 13);">OPTIMO</option>
+                    <option style="color: rgb(234, 255, 0);">ACEPTABLE</option>
+                    <option style="color: rgb(255, 123, 0);">MALO</option>
+                    <option style="color: rgb(255, 0, 0);">CRITICO</option>
+                </select> <br><br>
+
+                <label id="Obs">Observaciones:</label>
+                <textarea name="Comentarios" rows="" cols=""></textarea> 
+                <br><br>
+
+                <h4>Placa Madre</h4>
+                <label>Marca:</label>
+                <input type="text" name="marca">
+                <br><br>
+
+                <label>Modelo:</label>
+                <input type="text" name="modelo">
+                <br><br>
+
+                <label id="">Modelo de Socket:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Tipo de Socket:</label>
+                <select name="funciona">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option>LGA</option>
+                    <option>BGA</option>
+                    <option>PGA</option>
+                </select>
+                <br><br>
+
+                <label id="">Conexion de discos:</label>
+                <select name="funciona">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option>IDE</option>
+                    <option>SATA</option>
+                    <option>Ambas</option>
+                </select>
+                <br><br>
+
+                <label id="">RAM compatible:</label>
+                <select name="funciona">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option>DDR</option>
+                    <option>DDR2</option>
+                    <option>DDR3</option>
+                    <option>DDR4</option>
+                    <option>DDR5</option>
+                </select> 
+                <br><br>
+
+                <label>Slot de ram:</label>
+                <input type="number" name="slot de ram">
+                <br><br>
+
+                <label>Slot de expancion:</label>
+                <input type="number" name="slot de expansion">
+                <br><br>
+
+
+                <label id="">Funciona:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 255, 13);">SI</option>
+                    <option style="color: rgb(234, 255, 0);">PROBLEMAS</option>
+                    <option style="color: rgb(255, 0, 0);">NO</option>
+                </select>
+                <br><br>
+
+                <label id="">Estado:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 79, 249);">PERFECTO</option>
+                    <option style="color: rgb(0, 255, 13);">OPTIMO</option>
+                    <option style="color: rgb(234, 255, 0);">ACEPTABLE</option>
+                    <option style="color: rgb(255, 123, 0);">MALO</option>
+                    <option style="color: rgb(255, 0, 0);">CRITICO</option>
+                </select> 
+                <br><br>
+
+                <label id="Obs">Observaciones:</label>
+                <textarea name="Comentarios" rows="" cols=""></textarea> 
+                <br><br>
+
+                <h4>RAM</h4>
+                <label id="">Marca:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Modelo:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Capacidad:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Cantidad de RAM:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Funciona:</label>
+                <select name="funciona">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 255, 13);">SI</option>
+                    <option style="color: rgb(234, 255, 0);">PROBLEMAS</option>
+                    <option style="color: rgb(255, 0, 0);">NO</option>
+                </select>
+                <br><br>
+
+                <label id="">Estado:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 79, 249);">PERFECTO</option>
+                    <option style="color: rgb(0, 255, 13);">OPTIMO</option>
+                    <option style="color: rgb(234, 255, 0);">ACEPTABLE</option>
+                    <option style="color: rgb(255, 123, 0);">MALO</option>
+                    <option style="color: rgb(255, 0, 0);">CRITICO</option>
+                </select> 
+                <br><br>
+
+                <label id="Obs">Observaciones:</label>
+                <textarea name="Comentarios" rows="" cols=""></textarea> 
+                <br><br>
+
+                <h4>Placa de Video</h4>
+                <label id="">Marca:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Modelo:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Capacidad:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Cantidad:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Funciona:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 255, 13);">SI</option>
+                    <option style="color: rgb(234, 255, 0);">PROBLEMAS</option>
+                    <option style="color: rgb(255, 0, 0);">NO</option>
+                </select>
+                <br><br>
+
+                <label id="">Estado:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 79, 249);">PERFECTO</option>
+                    <option style="color: rgb(0, 255, 13);">OPTIMO</option>
+                    <option style="color: rgb(234, 255, 0);">ACEPTABLE</option>
+                    <option style="color: rgb(255, 123, 0);">MALO</option>
+                    <option style="color: rgb(255, 0, 0);">CRITICO</option>
+                </select> 
+                <br><br>
+
+                <label id="Obs">Observaciones:</label>
+                <textarea name="Comentarios" rows="" cols=""></textarea> 
+                <br><br>
+
+                <h4>Discos</h4>
+                <label id="">Tipo:</label>
+                <select>
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option>HDD</option>
+                    <option>SSD</option>
+                    <option>M.2</option>
+                </select>
+                <br><br>
+                
+                <label id="">Marca:</label>
+                <input type="" placeholder="Escribe">
+                <br><br>
+
+                <label id="">Capacidad:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Cantidad:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Funciona:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 255, 13);">SI</option>
+                    <option style="color: rgb(234, 255, 0);">PROBLEMAS</option>
+                    <option style="color: rgb(255, 0, 0);">NO</option>
+                </select>
+                <br><br>
+
+                <label id="">Estado:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 79, 249);">PERFECTO</option>
+                    <option style="color: rgb(0, 255, 13);">OPTIMO</option>
+                    <option style="color: rgb(234, 255, 0);">ACEPTABLE</option>
+                    <option style="color: rgb(255, 123, 0);">MALO</option>
+                    <option style="color: rgb(255, 0, 0);">CRITICO</option>
+                </select> 
+                <br><br>
+
+                <label id="Obs">Observaciones:</label>
+                <textarea name="Comentarios" rows="" cols=""></textarea> 
+                <br><br>
+
+                <h4>Disqueteras</h4>
+                <label id="">Marca:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Modelo:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Capacidad:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Cantidad:</label>
+                <input type="" placeholder="Escribe"> 
+                <br><br>
+
+                <label id="">Funciona:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 255, 13);">SI</option>
+                    <option style="color: rgb(234, 255, 0);">PROBLEMAS</option>
+                    <option style="color: rgb(255, 0, 0);">NO</option>
+                </select>
+                <br><br>
+
+                <label id="">Estado:</label>
+                <select name="Estado">
+                    <option style="color: gray;">Elija el Opcion</option>
+                    <option style="color: rgb(0, 79, 249);">PERFECTO</option>
+                    <option style="color: rgb(0, 255, 13);">OPTIMO</option>
+                    <option style="color: rgb(234, 255, 0);">ACEPTABLE</option>
+                    <option style="color: rgb(255, 123, 0);">MALO</option>
+                    <option style="color: rgb(255, 0, 0);">CRITICO</option>
+                </select> 
+                <br><br>
+
+                <label id="Obs">Observaciones:</label>
+                <textarea name="Comentarios" rows="" cols=""></textarea> 
+                <br><br>
+            </form>
+        </div>
+        
+</header>
+</body>
+</html>
